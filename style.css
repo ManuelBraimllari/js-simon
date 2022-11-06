@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    flex-direction: column;
+}
+
+
+.game-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.counter-box{
+    display: flex;
+}
+
+.number{
+    margin-top: 50px;
+    padding: 2rem;
+    font-size: 80px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
